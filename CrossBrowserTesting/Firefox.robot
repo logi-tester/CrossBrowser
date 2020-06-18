@@ -4,7 +4,7 @@ Library    SeleniumLibrary
 ${URL}    https://www.amazon.in/
 ${FirefoxBrowser}    ff   
 *** Test Cases ***
-Cross Browser Testing with Chrome Browser
+Cross Browser Testing with Firefox Browser
     [Documentation]    FireFox Browser with Amazon web site
     Open Browser    ${URL}    ${FirefoxBrowser}   None	http://10.100.20.147:4444/wd/hub
     
